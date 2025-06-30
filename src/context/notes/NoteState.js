@@ -3,7 +3,8 @@ import NoteContext from "./noteContext";
 
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000"
+  // const host = "http://localhost:5000"
+  const host="https://dailynotes-api-xj1d.onrender.com"
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial)
 
